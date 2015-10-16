@@ -1,0 +1,44 @@
+{
+  "name": "your_languaje_name",
+  "version": "0.0.1",
+  "description": "Compiler from your_languaje_name to Javascript",
+  "main": "main.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp compile"
+  },
+  "bin": {
+    "your_languaje_name": "./bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gioyik/jison-workshop-jsconfco"
+  },
+  "keywords": [
+    "jison",
+    "your_languaje_name",
+    "jsconfco",
+    "compiler"
+  ],
+  "author": "Your name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gioyik/jison-workshop-jsconfco/issues"
+  },
+  "homepage": "https://github.com/Gioyik/jison-workshop-jsconfco",
+  "devDependencies": {
+    "del": "~1.1.1",
+    "gulp": "~3.8.10",
+    "gulp-babel": "^5.2.1",
+    "gulp-jshint": "~1.9.0",
+    "gulp-mocha": "~2.0.0",
+    "jshint-stylish": "~1.0.0"
+  },
+  "dependencies": {
+    "jison": "^0.4.15",
+    "source-map": "^0.3.0"
+  }
+}
